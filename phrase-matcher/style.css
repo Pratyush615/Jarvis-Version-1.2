@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+  color: white;
+}
+
+h1, p {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div p {
+  padding: 20px;
+  text-align: center;
+
+}
+
+div {
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.1rem;
+  width: 170px;
+  line-height: 2;
+  margin-top: 30px;
+}
+.image{
+  display: flex;
+  justify-content:center;
+  align-items: center;flex-direction: column; width: 100%; margin: 20% 0; min-height: 0px;
+  margin-bottom: 250px;
+}
+
+@media all and (max-height: 410px) {
+  div {
+    position: static;
+  }
+}
+
+.phrase {
+  font-weight: bold;
+  
+}
+
+.output {
+  font-style: italic;
+}
+.WelcomeText{
+  width:500px;
+  padding-left: 520px;
+  padding-bottom: 500px;
+  position: absolute;
+}
